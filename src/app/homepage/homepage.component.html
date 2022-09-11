@@ -4,8 +4,8 @@
   <h2>HEALTHCARE STAFFING</h2>
   We excel at finding healthcare professionals to fill your needs
   <br />
-  <button class="btn btn-success" (click)="logTest()">Find Out More</button>
-  <div id="showDetail">Show Detail!</div>
+  <button class="btn btn-success" (click)="showDetailButton()">Find Out More</button>
+  <div *ngIf="showDetail">Show Detail!</div>
 </div>
 
 <div class="info-tab">

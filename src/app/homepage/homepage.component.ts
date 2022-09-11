@@ -26,4 +26,9 @@ export class HomepageComponent implements OnInit {
     }
   }
 
+  showDetailButton() {
+    console.log("Show Button Detail Is Working!")
+    this.showDetail = !this.showDetail;
+  }
+
 }
