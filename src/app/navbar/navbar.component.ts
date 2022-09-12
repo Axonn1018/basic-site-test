@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  pageStatus = {
+    home: false,
+    about: false,
+    contact: false
+  }
+
   constructor() { }
 
   ngOnInit(): void {
