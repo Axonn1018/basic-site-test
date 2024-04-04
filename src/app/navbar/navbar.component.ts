@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -16,6 +17,18 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  goHome() {
+    console.log("Home button has been pressed.");
+  }
+
+  goAbout() {
+    console.log("About button has been pressed.");
+  }
+
+  goContact(){
+    console.log("Contact button has been pressed.");
   }
 
 }

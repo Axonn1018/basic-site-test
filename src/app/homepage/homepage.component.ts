@@ -16,6 +16,11 @@ export class HomepageComponent implements OnInit {
 
   showDetailButton() {
     this.showDetail = !this.showDetail;
+    console.log("Toggling detail button.");
+  }
+
+  consoleTest() {
+    console.log("Testing click action on a tag item.");
   }
 
 }
