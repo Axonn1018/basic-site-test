@@ -76,10 +76,21 @@
 
 <div class="container">
   <h2 class="title-contact">Contact Us</h2>
-  Send an Email. All fields are required. <br>
-  <div style="margin-right: 300px; text-align: right">
-  <input type="text" placeholder="name"> <br><br>
-  <input type="text" placeholder="email"> <br><br>
-  <textarea placeholder="message" cols="23" rows="10"></textarea> <br><br>
-  </div>
+  <form [formGroup]="newMsg" (ngSubmit)="sendMsg()">
+    Send an Email. All fields are required. <hr>
+    <div class="form-control">
+      <label for="name">Name</label>
+      <input formControlName="name" id="name" type="name">
+    </div>
+
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input formControlName="email" id="email" type="email">
+    </div>
+
+    <!-- <textarea placeholder="message" cols="23" rows="10"></textarea> <br><br> -->
+
+    <button class=btn-msg type="submit">Submit</button>
+    
+  </form>
 </div>

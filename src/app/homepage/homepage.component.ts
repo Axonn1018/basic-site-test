@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-homepage',
@@ -8,6 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomepageComponent implements OnInit {
 
   showDetail = false;
+
+  newMsg = new FormGroup({
+    name: new FormControl(''),
+    email: new FormControl(''),
+  });
 
   constructor() { }
 
@@ -21,6 +27,11 @@ export class HomepageComponent implements OnInit {
 
   consoleTest() {
     console.log("Testing click action on a tag item.");
+  }
+
+  sendMsg(){
+    console.log("Logging name: ", this.newMsg.value.name);
+    console.log("Logging email: ", this.newMsg.value.email);
   }
 
 }

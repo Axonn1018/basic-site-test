@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
 //import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
@@ -17,6 +19,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     //MatSlideToggleModule
   ],
   providers: [],

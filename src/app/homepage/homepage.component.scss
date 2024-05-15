@@ -7,9 +7,9 @@
 
 .title-contact {
     color:#04AA6D;
-    //text-align: center;
+    text-align: center;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .title-about {
@@ -37,4 +37,30 @@
 
 .col {
     margin-top: 15px;
+}
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 8px 8px 16px;
+    border-style: solid;
+}
+
+.form-control {
+    padding-bottom: 10px;
+    input, label {
+        display: block;
+    }
+    input {
+        padding: 8px;
+        width: 100%;
+    }
+}
+
+.btn-msg {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px auto;
 }
