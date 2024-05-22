@@ -1,4 +1,4 @@
-# Infomration
+# Information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
 This project also has Angular Material 15.2.9 and Bootstrap 5.1.3
