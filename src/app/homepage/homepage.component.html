@@ -4,13 +4,21 @@
   <h2>HEALTHCARE STAFFING</h2>
   We excel at finding healthcare professionals to fill all your needs
   <br />
-  <button class="btn btn-success" (click)="showDetailButton()">Find Out More</button>
+  <button class="btn btn-success" (click)="showDetailButton()">
+    Find Out More
+  </button>
   <div *ngIf="showDetail">
-  <div class="container" style="text-align: left">
-    <div class='title-about'>Holidays... Weekends... Three in the morning</div>
-    <br>
-    At Healthcare, we understand emergencies can't wait. That's why we are availalbe the minute you need us... 24 hours a day, 365 days a yer. Whether you are short-staffed around the holidays, or looking for a last minute fill-in. Healthcare has an on-call person ready to help. Start with us today!
-  </div>
+    <div class="container" style="text-align: left">
+      <div class="title-about">
+        Holidays... Weekends... Three in the morning
+      </div>
+      <br />
+      At Healthcare, we understand emergencies can't wait. That's why we are
+      availalbe the minute you need us... 24 hours a day, 365 days a yer.
+      Whether you are short-staffed around the holidays, or looking for a last
+      minute fill-in. Healthcare has an on-call person ready to help. Start with
+      us today!
+    </div>
   </div>
 </div>
 
@@ -61,17 +69,16 @@
 <div class="container">
   <h2 class="title">About Us</h2>
   <br />
-  Operating from strategic U.S. locations and headquartered in Winter Park,
-  Florida, we are one of the largest and fastest growing healthcare
-  staffing solutions providers in the nation. We are focused on recruiting the
-  most talented healthcare professionals and providing a full array of managed
-  staffing and home care services to meet the ever-increasing employment needs
-  of our clients. We are one of the few companies that can provide quality
-  temporary staff for all healthcare industry positions including local nurses,
-  travel nurses, allied health, locum tenens and home care professionals. With a
-  proven recruiting model, we have become one of the premier healthcare
-  staffing companies in the country with one of the highest rates of employee
-  retention in the industry.
+  Operating from strategic U.S. locations and headquartered in one of the
+  largest and fastest growing healthcare staffing solutions providers in the
+  nation. We are focused on recruiting the most talented healthcare
+  professionals and providing a full array of managed staffing and home care
+  services to meet the ever-increasing employment needs of our clients. We are
+  one of the few companies that can provide quality temporary staff for all
+  healthcare industry positions including local nurses, travel nurses, allied
+  health, locum tenens and home care professionals. With a proven recruiting
+  model, we have become one of the premier healthcare staffing companies in the
+  country with one of the highest rates of employee retention in the industry.
 </div>
 
 <div class="container">
@@ -80,17 +87,16 @@
     Send an Email. All fields are required.
     <div class="form-control">
       <label for="name">Name</label>
-      <input formControlName="name" id="name" type="name">
+      <input formControlName="name" id="name" type="name" />
     </div>
 
     <div class="form-control">
       <label for="email">Email</label>
-      <input formControlName="email" id="email" type="email">
+      <input formControlName="email" id="email" type="email" />
     </div>
 
     <!-- <textarea placeholder="message" cols="23" rows="10"></textarea> <br><br> -->
 
-    <button class=btn-msg type="submit">Submit</button>
-    
+    <button class="btn-msg" type="submit">Submit</button>
   </form>
 </div>
